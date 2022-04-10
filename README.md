@@ -5,7 +5,7 @@ Datatree is a swiss army knife python library that contains useful helper functi
 graph TD
     A[Loading Dataset] -->|Pandas| B[Preprocessing]
     B --> C{Exploratory Data Analysis}
-    C -->|Interested in correlations| D[Confusion Matrix]
+    C -->|Interested in relationships| D[Correlation Matrix]
     C -->|General Understanding| E[Summary Statistics]
     C -->|Visualizations| F[Histograms]
     C -->|Testing Assumptions| G[Statistical Tests]

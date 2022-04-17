@@ -1,0 +1,15 @@
+
+[tool.poetry]
+name = "datatree"
+version = "0.1.0"
+description = "Datatree is a swiss army knife python library that contains useful helper functions to help with data science related tasks such as exploratory data analysis, preprocessing and cleaning data, data mining, modeling, and more."
+authors = ["defunsm <salmanhossain500@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

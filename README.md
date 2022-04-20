@@ -5,6 +5,7 @@ Datatree is a swiss army knife python library that contains useful helper functi
 
 1. Run the following commands in the project's root directory to set up the virtual environment
 + run `poetry shell` to activate the virtual environment.
++ update dependencies with `poetry install`
 
 ```mermaid
 graph TD
